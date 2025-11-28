@@ -8,14 +8,14 @@ main.container {
 }
 
 .section-block {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .section-title {
   color: #1b3967;
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .hero {
@@ -54,7 +54,6 @@ main.container {
 }
 
 
-/* Small responsive tweaks */
 @media (max-width: 575.98px) {
   .hero {
     text-align: center;
