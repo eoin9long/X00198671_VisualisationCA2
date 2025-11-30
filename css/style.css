@@ -53,6 +53,16 @@ main.container {
   border-color: #0d6efd;
 }
 
+.backToTop {
+  width: 50px; 
+  height: 50px;
+}
+
+.backToTop:hover {
+  background-color: #7dbbf1;
+}
+
+
 
 @media (max-width: 575.98px) {
   .hero {
