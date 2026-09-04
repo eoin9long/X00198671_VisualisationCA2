@@ -25,12 +25,12 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
       <ul class="nav nav-pills">
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#educationgrades">Education Grades</a></li>
+        <li class="nav-item"><a class="nav-link" href="#educationgrades">Grades</a></li>
         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="#workplacement">Work Placement</a></li>
         <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
         <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <!--<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>-->
       </ul>
     </div>
   </nav>
@@ -44,7 +44,7 @@
           <h1 class="display-5 fw-bold mb-3">Eoin Long</h1>
           <p class="lead">
             Computing student at TU Dublin Tallaght, in the Software Development stream.
-            Aspires to be a software developer in the future
+            Always eager to learn new technologies and improve my skills.
           </p>
         </div>
         <div class="col-md-5 offset-md-1 text-center mt-4 mt-md-0">
@@ -61,13 +61,12 @@
       <div class="row">
         <div class="col-md-8 bg-light h-100 rounded-3 p-3 shadow-sm">
           <p>
-            I am final-year computing student born and raised in Tallaght, with a strong interest in software development. 
-            I aspire to become a software developer in the future after graduation.
+            I am final-year computing student born and raised in Tallaght, with a strong interest in software development, and data center operations.
+            Always eager to learn new technologies and improve my skills.
           </p>
           <p>
             Outside of college, I build PCs as a hobby, and love to play video games, watch Football, hang out
-            with friends, and spending time with family. I am a proud Irishman, who, funnily enough got 100% Irish
-            on an Ancestory DNA test!
+            with friends, and spending time with family.
           </p>
         </div>
         <div class="col-3">
@@ -86,7 +85,7 @@
       <div class="row">
         <div class="col-md-9">
             <p>
-            I am doing a BSc in Computing at TU Dublin Tallaght, starting first year in 2022, and due to graduate in 2026.
+            I am doing a BSc in Computing at TU Dublin Tallaght, starting first year in 2022, and graduated in 2026 with a (2.1).
             </p>
             <p>
             I went to Secondary School at St.Marks Community School between 2016-2022, and graduated with 370 points on my leaving cert.
@@ -94,10 +93,10 @@
         </div>
       </div>
 
-      <div class="row g-3">
+      <div class="row g-4 justify-content-center">
 
         <!--First Year-->
-        <div class="col-8 col-md-4 col-lg2">
+        <div class="col-12 col-md-6 col-lg-3 project-card">
             <div class="card h-100 shadow-sm">
                 <div class="card-header text-center bg-primary text-white">
                     <strong>Year 1</strong>
@@ -127,7 +126,7 @@
         </div>
 
         <!--Second Year-->
-        <div class="col-8 col-md-4 col-lg2">
+        <div class="col-12 col-md-6 col-lg-3 project-card">
             <div class="card h-100 shadow-sm">
                 <div class="card-header text-center bg-primary text-white">
                     <strong>Year 2</strong>
@@ -157,7 +156,7 @@
         </div>
 
         <!--Third Year-->
-        <div class="col-8 col-md-4 col-lg2">
+        <div class="col-12 col-md-6 col-lg-3 project-card">
             <div class="card h-100 shadow-sm">
                 <div class="card-header text-center bg-primary text-white">
                     <strong>Year 3</strong>
@@ -181,98 +180,249 @@
             </div>
         </div>
 
+
+        <!--Fourth Year-->
+        <div class="col-12 col-md-6 col-lg-3 project-card">
+            <div class="card h-100 shadow-sm">
+                <div class="card-header text-center bg-primary text-white">
+                    <strong>Year 4</strong>
+                </div>
+                <div class="card-body">
+                    <p>GPA: 3.33</p>
+                    <p>Semester1</p>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between"><span>Enterprise Performance Architecture</span><span>A1</span></li>
+                        <li class="list-group-item d-flex justify-content-between"><span>DevOps - Continuous Integration/Deployment</span><span>A1</span></li>
+                        <li class="list-group-item d-flex justify-content-between"><span>Interactive Media Design & Visualisation</span><span>B2</span></li>
+                        <li class="list-group-item d-flex justify-content-between"><span>Software Architecture</span><span>B1</span></li>
+                    </ul>
+                    <p>Semester2</p>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between"><span>Computational Theory</span><span>A1</span></li>
+                        <li class="list-group-item d-flex justify-content-between"><span>Algorithms & Computation</span><span>B1</span></li>
+                        <li class="list-group-item d-flex justify-content-between"><span>Digital Technology Strategy</span><span>A3</span></li>
+                        <li class="list-group-item d-flex justify-content-between"><span>Security for the Cloud and IoT</span><span>B1</span></li>
+                        <li class="list-group-item d-flex justify-content-between"><span>Final Year Project</span><span>B3</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
       </div>
     </section>
 
 
-    <!--Projects-->
-    <section id="projects" class="section-block">
-      <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
-        <h2 class="section-title mb-0">Projects</h2>
-        <div class="d-flex align-items-center gap-2">
-          <label for="projectFilter" class="form-label mb-0 me-1">Filter by year:</label>
-          <select id="projectFilter" class="form-select form-select-sm" style="min-width: 150px;">
-            <option value="all" selected>All</option>
-            <option value="2">Year 2</option>
-            <option value="3">Year 3</option>
-            <option value="4">Year 4</option>
-          </select>
+    <!-- Projects -->
+<section id="projects" class="section-block">
+
+  <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
+    <div>
+      <h2 class="section-title mb-1">Projects</h2>
+      <p class="text-muted mb-0">
+        A selection of projects completed during my degree.
+      </p>
+    </div>
+
+    <div class="d-flex align-items-center gap-2">
+      <label for="projectFilter" class="form-label mb-0">Filter by year:</label>
+      <select id="projectFilter" class="form-select form-select-sm" style="min-width: 150px;">
+        <option value="all" selected>All Projects</option>
+        <option value="2">Year 2</option>
+        <option value="3">Year 3</option>
+        <option value="4">Year 4</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row g-4 justify-content-center">
+
+    <!-- Premier League Predictor -->
+    <div class="col-12 col-md-6 col-lg-4 project-card" data-year="4">
+      <div class="card h-100 shadow-sm project-item">
+        <div class="card-body d-flex flex-column">
+
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <h5 class="card-title mb-0">Premier League Predictor</h5>
+            <span class="badge bg-primary">Year 4</span>
+          </div>
+
+          <p class="card-text">
+            Django web application where users can predict Premier League fixtures,
+            earn points, compete on leaderboards and compare predictions/compete against
+            a custom fixture prediction model.
+          </p>
+
+          <div class="project-tech mb-4">
+            <span>Django</span>
+            <span>Python</span>
+            <span>SQLite</span>
+            <span>API-Football</span>
+          </div>
+
+          <div class="mt-auto">
+            <a href="https://eoin9.pythonanywhere.com/"
+               target="_blank"
+               class="btn btn-primary btn-sm">
+              View Deployed Project
+            </a>
+          </div>
+          <span class="text-muted small">
+              Solo Project
+            </span>
         </div>
       </div>
+    </div>
 
-      <div class="row g-4">
-        <!--Fourth Year Project-->
-        <div class="col-md-4 project-card" data-year="4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-header fw-semibold">Premier League Predictor</div>
-            <div class="card-body d-flex flex-column">
-              <p class="card-text flex-grow-1">
-                Web app that lets users predict Premier League fixtures, track scores, gain points,
-                and compete against friends on the leaderboard.
-              </p>
-              <ul class="small mb-3">
-                <li>Django Webapp</li>
-                <li>api-football API</li>
-              </ul>
-              <span class="badge bg-primary align-self-start">Year 4</span>
-            </div>
-          </div>
-        </div>
 
-        <!--Blazor Bundesliga-->
-        <div class="col-md-4 project-card" data-year="4">
-          <div class="card h-100 shadow-sm">
-            <div class="card-header fw-semibold">Bundesliga Fixtures Dashboard</div>
-            <div class="card-body d-flex flex-column">
-              <p class="card-text flex-grow-1">
-                Blazor application that visualises Bundesliga fixtures, results, and team details
-                from the OpenLigaDB API. Developed for a Software Architecture CA.
-              </p>
-              <ul class="small mb-3">
-                <li>Blazor Webapplication</li>
-                <li>C#</li>
-                <li>OpenLigaDB API</li>
-              </ul>
-              <span class="badge bg-primary align-self-start">Year 4</span>
-            </div>
-          </div>
-        </div>
+    <!-- Game Review App -->
+    <div class="col-12 col-md-6 col-lg-4 project-card" data-year="4">
+      <div class="card h-100 shadow-sm project-item">
+        <div class="card-body d-flex flex-column">
 
-        <!--Work Placement-->
-        <div class="col-md-4 project-card" data-year="3">
-          <div class="card h-100 shadow-sm">
-            <div class="card-header fw-semibold">Work Placement Project</div>
-            <div class="card-body d-flex flex-column">
-              <p class="card-text flex-grow-1">
-                Documentation detailing my experiences and what I Learned during my 3rd year Work Placement at Equinix.
-              </p>
-              <ul class="small mb-3">
-                <li>Word Document</li>
-                <li>Powerpoint Presentation</li>
-              </ul>
-              <span class="badge bg-success align-self-start">Year 3</span>
-            </div>
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <h5 class="card-title mb-0">Game Review App</h5>
+            <span class="badge bg-primary">Year 4</span>
           </div>
-        </div>
 
-        <!--Second Year Project-->
-        <div class="col-md-4 project-card" data-year="2">
-          <div class="card h-100 shadow-sm">
-            <div class="card-header fw-semibold">Shoe Store</div>
-            <div class="card-body d-flex flex-column">
-              <p class="card-text flex-grow-1">
-                Django web application developed in a group. Which created a Shoe Store, where users can browse and purchase shoes.
-              </p>
-              <ul class="small mb-3">
-                <li>Django Webapp</li>
-                <li>Bootstrap styling</li>
-              </ul>
-              <span class="badge bg-secondary align-self-start">Year 2</span>
-            </div>
+          <p class="card-text">
+            Android application backed by a custom ASP.NET Core API, allowing
+            users to browse games, filter content and submit reviews.
+          </p>
+
+          <div class="project-tech mb-4">
+            <span>C#</span>
+            <span>ASP.NET Core</span>
+            <span>Entity Framework</span>
+            <span>Android</span>
+            <span>Azure SQL</span>
           </div>
+
+          <div class="mt-auto">
+            <a href="https://gamereviewapica1-frc7gsg7e2hva9gk.polandcentral-01.azurewebsites.net/swagger/index.html"
+               target="_blank"
+               class="btn btn-primary btn-sm">
+              View Deployed API
+            </a>
+          </div>
+          <span class="text-muted small">
+              Group Project
+            </span>
         </div>
       </div>
-    </section>
+    </div>
+
+
+    <!-- Bundesliga Fixtures Dashboard -->
+    <div class="col-12 col-md-6 col-lg-4 project-card" data-year="4">
+      <div class="card h-100 shadow-sm project-item">
+        <div class="card-body d-flex flex-column">
+
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <h5 class="card-title mb-0">Bundesliga Fixtures Dashboard</h5>
+            <span class="badge bg-primary">Year 4</span>
+          </div>
+
+          <p class="card-text">
+            Blazor web application using the OpenLigaDB API to display
+            Bundesliga fixtures, results and team information.
+          </p>
+
+          <div class="project-tech mb-4">
+            <span>Blazor</span>
+            <span>C#</span>
+            <span>.NET</span>
+            <span>OpenLigaDB API</span>
+            <span>Azure</span>
+          </div>
+
+          <div class="mt-auto">
+            <a href="https://bundesligaca3-epa8dpcthyhmcxdj.polandcentral-01.azurewebsites.net/"
+               target="_blank"
+               class="btn btn-primary btn-sm">
+              View Deployed Project
+            </a>
+
+            
+          </div>
+          <span class="text-muted small">
+              Solo Project
+            </span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Shoe Store -->
+    <div class="col-12 col-md-6 col-lg-4 project-card" data-year="2">
+      <div class="card h-100 shadow-sm project-item">
+        <div class="card-body d-flex flex-column">
+
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <h5 class="card-title mb-0">Shoe Store</h5>
+            <span class="badge bg-secondary">Year 2</span>
+          </div>
+
+          <p class="card-text">
+            Group-developed Django e-commerce application allowing users
+            to browse and purchase shoes through an online storefront.
+            Including authentication, Admin panel, and a shopping cart system.
+          </p>
+
+          <div class="project-tech mb-4">
+            <span>Django</span>
+            <span>Python</span>
+            <span>Bootstrap</span>
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+
+          <div class="mt-auto">
+            <!-- Replace with repository link if available -->
+            <span class="text-muted small">
+              Group Project
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Equinix Work Placement -->
+    <div class="col-12 col-md-6 col-lg-4 project-card" data-year="3">
+      <div class="card h-100 shadow-sm project-item">
+        <div class="card-body d-flex flex-column">
+
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <h5 class="card-title mb-0">Equinix Work Placement Portfolio</h5>
+            <span class="badge bg-success">Year 3</span>
+          </div>
+
+          <p class="card-text">
+            Documentation and presentation covering my Customer Operations
+            Technician internship at Equinix and my experience working with
+            data centre infrastructure, networking and hardware.
+          </p>
+
+          <div class="project-tech mb-4">
+            <span>Data Centre Operations</span>
+            <span>Networking</span>
+            <span>Server Hardware</span>
+            <span>Troubleshooting</span>
+          </div>
+
+          <div class="mt-auto">
+            <span class="text-muted small">
+              Solo Project
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 
     <!--Work Placement-->
@@ -363,9 +513,9 @@
     <!--Hobbies-->
     <section id="hobbies" class="section-block">
       <h2 class="section-title">Hobbies & interests</h2>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+      <div class="row g-4 justify-content-center">
 
-    <div class="col">
+    <div class="col col-12 col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm">
         <div class="card-header text-center">
           Football
@@ -379,7 +529,7 @@
       </div>
     </div>
 
-    <div class="col">
+    <div class="col col-12 col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm">
         <div class="card-header text-center">
           Gaming & PC Building
@@ -388,28 +538,14 @@
           <p class="text-center">
             I build PCs as a hobby and enjoy playing video games in my spare time.
             I like experimenting with hardware upgrades and keeping my setup optimised for
-            both gaming and development. Evidence of this is my new build I made back in March, 
-            which cost €3,000 in total.
+            both gaming and development..
           </p>
         </div>
       </div>
     </div>
 
-    <div class="col">
-      <div class="card h-100 shadow-sm">
-        <div class="card-header text-center">
-          Anime
-        </div>
-        <div class="card-body">
-          <p class="text-center">
-            I love watching anime in my spare time, and talking about it with friends. There are
-            a lot of great stories out there, my favourites are Berserk and Vinland Saga.
-          </p>
-        </div>
-      </div>
-    </div>
 
-    <div class="col">
+    <div class="col col-12 col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm">
         <div class="card-header text-center">
           Friends & Family
@@ -428,7 +564,7 @@
 
     <hr>
 
-    <!--Contact section-->
+    <!--Contact section
     <section id="contact" class="section-block">
       <h2 class="section-title">Contact me</h2>
       <div class="row g-4">
@@ -482,7 +618,8 @@
           </div>
         </div>
     </section>
-    
+    -->
+
     <a href="#home" class="backToTop position-fixed bottom-0 end-0 m-4 btn btn-primary rounded-circle">
       <i class="bi bi-chevron-double-up fs-4 text-white"></i>
     </a>

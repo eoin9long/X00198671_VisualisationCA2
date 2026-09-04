@@ -69,3 +69,73 @@ main.container {
     text-align: center;
   }
 }
+
+
+#projects .card,
+#hobbies .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#projects .card:hover,
+#hobbies .card:hover {
+    transform: translateY(-4px);
+}
+
+#projects .card-body {
+    padding: 1.25rem;
+}
+
+
+/* Project Cards */
+.project-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10) !important;
+}
+
+.project-item .card-body {
+  padding: 1.5rem;
+}
+
+.project-item .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.project-item .card-text {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Technology Tags */
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.project-tech span {
+  background: #f1f3f5;
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+/* Project filter */
+#projectFilter {
+  min-width: 160px;
+}
+
+/* Make project buttons slightly cleaner */
+.project-item .btn {
+  border-radius: 6px;
+}
